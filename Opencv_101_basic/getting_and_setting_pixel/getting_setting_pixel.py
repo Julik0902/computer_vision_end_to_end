@@ -3,11 +3,11 @@ from matplotlib import pyplot as plt
 import argparse
 import cv2
 
-def plt_imshow(seapic, sea):
+def plt_imshow(title, image):
 	# convert the image frame BGR to RGB color space and display it
-	image = cv2.cvtColor(sea, cv2.COLOR_BGR2RGB)
+	image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 	plt.imshow(image)
-	plt.title(seapic)
+	plt.title(title)
 	plt.grid(False)
 	plt.show()
 

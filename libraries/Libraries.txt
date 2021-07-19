@@ -1,0 +1,7 @@
+1.cv2 :-
+        Wrapper package for OpenCV python bindings.
+2.argparse:-
+            for command line argument.
+3.numpy array
+4.matplotlib
+5.imutils
